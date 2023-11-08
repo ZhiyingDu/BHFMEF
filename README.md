@@ -1,6 +1,6 @@
 ![image](https://github.com/ZhiyingDu/BHFMEF/assets/111031904/5dacbf20-3bcf-428e-96e2-6cd7489c843a)
 <div align="center"> 
-  <font size=3>Little Strokes Fell Great Oaks: Boosting the Hierarchical Features for Multi-exposure Image Fusion</font>
+  <font size=10>Little Strokes Fell Great Oaks: Boosting the Hierarchical Features for Multi-exposure Image Fusion</font>
 </div>
 
 ## About BHFMEF Quantitative and Qualitative Experimental Results：
