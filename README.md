@@ -6,3 +6,8 @@ Therefore, If you want to get the best quantitative results, it would be better 
 
 If you have any question，please contact：[a_chao2001@163.com](mailto:a_chao2001@163.com).
 
+<div align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/ZhiyingDu/count.svg" /> 
+</div>
+
