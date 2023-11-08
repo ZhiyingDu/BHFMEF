@@ -1,5 +1,7 @@
 ![image](https://github.com/ZhiyingDu/BHFMEF/assets/111031904/5dacbf20-3bcf-428e-96e2-6cd7489c843a)
-
+<div align="center"> 
+  Little Strokes Fell Great Oaks: Boosting the Hierarchical Features for Multi-exposure Image Fusion
+</div>
 ## About BHFMEF Quantitative and Qualitative Experimental Results：
 
 The prevalent quantitative evaluation metric for multi-exposure image fusion in computer vision involves comparing the fusion results with under-exposed and over-exposed images.
