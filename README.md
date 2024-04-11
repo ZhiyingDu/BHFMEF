@@ -4,6 +4,32 @@ This repository is the official implementation of  [BHFMEF](https://dl.acm.org/d
 
 ![image](https://github.com/ZhiyingDu/BHFMEF/assets/111031904/5dacbf20-3bcf-428e-96e2-6cd7489c843a)
 
+## Dependency
+Our code is based on the PyTorch library
+* torch==1.11.0
+* torchaudio==0.11.0
+* torchvision==0.12.0
+
+## Training
+### Dataset File structure
+To train/test the dataset should be defined as follows:
+
+```
+[Your Own data path]─┐           ├─► HR_over ──► *.png
+                     ├─► train ──│
+                     │           ├─► HR_under──► *.png
+                     │
+                     │           ├─► testA ─► *.png
+                     ├─► test  ──│                  
+                                 │─► testB ─► *.png
+```
+You can change the path of data in option.py:
+```shell
+parser.add_argument('--dir_train', type=str, default='/data/***/Dataset/train/',
+                    help='training dataset directory')
+parser.add_argument('--dir_test', type=str, default='/data/***/Dataset/test/',
+                    help='test dataset directory')
+```
 ## About BHFMEF Quantitative and Qualitative Experimental Results：
 
 The prevalent quantitative evaluation metric for multi-exposure image fusion in computer vision involves comparing the fusion results with under-exposed and over-exposed images.
