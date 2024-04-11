@@ -4,7 +4,7 @@ def CE(rgb_img, increment):
     img_max = img.max(axis=2)
     img_out = img
     
-    #获取HSL空间的饱和度和亮度
+    # Get saturation and brightness in HSL space
     delta = (img_max - img_min) / 255.0
     value = (img_max + img_min) / 255.0
     L = value/2.0
@@ -15,7 +15,7 @@ def CE(rgb_img, increment):
     s2 = delta/(2 - value)
     s = s1 * mask_1 + s2 * (1 - mask_1)
     
-    # 增量大于0，饱和度指数增强
+    # The increment is greater than 0, and the saturation index is enhanced.
     if increment >= 0 :
         # alpha = increment+s > 1 ? alpha_1 : alpha_2
         temp = increment + s
@@ -29,7 +29,7 @@ def CE(rgb_img, increment):
         img_out[:, :, 1] = img[:, :, 1] + (img[:, :, 1] - L * 255.0) * alpha
         img_out[:, :, 2] = img[:, :, 2] + (img[:, :, 2] - L * 255.0) * alpha
         
-    # 增量小于0，饱和度线性衰减
+    # Increment less than 0, saturation linearly decays
     else:
         alpha = increment
         img_out[:, :, 0] = img[:, :, 0] + (img[:, :, 0] - L * 255.0) * alpha
@@ -38,7 +38,7 @@ def CE(rgb_img, increment):
     
     img_out = img_out/255.0
     
-    # RGB颜色上下限处理(小于0取0，大于1取1)
+    # RGB color upper and lower limit processing (less than 0, take 0, greater than 1, take 1)
     mask_3 = img_out  < 0 
     mask_4 = img_out  > 1
     img_out = img_out * (1-mask_3)
