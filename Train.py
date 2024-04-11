@@ -15,7 +15,6 @@ from MEFLoss import fusion_loss_mef
 from torchvision import transforms
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import torch.nn.functional as F
-from utils.weight import CalWeight_Train
 
 transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize(mean=[0], std=[1])])
 train_set = Trainset(transform=transform)
