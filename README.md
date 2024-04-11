@@ -1,6 +1,16 @@
 ## Little Strokes Fell Great Oaks: Boosting the Hierarchical Features for Multi-exposure Image Fusion
 
-This repository is the official implementation of  [BHFMEF](https://dl.acm.org/doi/10.1145/3581783.3612561)
+This repository is the official implementation of  [BHFMEF](https://arxiv.org/abs/2404.06033)[ACM MM, 2023]  
+**[AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning](https://arxiv.org/abs/2404.06033)** 
+</br>
+[Pan Mu](https://panmu123.github.io/),
+[Zhiying Du](https://zhiyingdu.github.io/),
+[Jinyuan Liu*](https://github.com/JinyuanLiu-CV),
+[Cong Bai](https://homepage.zjut.edu.cn/congbai/)
+(*Corresponding Author)
+
+<!-- [Arxiv Report](https://arxiv.org/abs/2404.06033) | [Project Page](https://github.com/ZhiyingDu/BHFMEF) -->
+[![arXiv](https://img.shields.io/badge/arXiv-2307.04725-b31b1b.svg)](https://arxiv.org/abs/2404.06033)
 
 ![image](https://github.com/ZhiyingDu/BHFMEF/assets/111031904/5dacbf20-3bcf-428e-96e2-6cd7489c843a)
 
