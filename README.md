@@ -46,11 +46,11 @@ The prevalent quantitative evaluation metric for multi-exposure image fusion in 
 
 Therefore, If you want to get the best quantitative results, it would be better to set the weights of the calculated fusion image and each source image in MEFloss.py to **0.5, 0, 0, 0.5**. If you want to get the best qualitative results, the above weights are set to **0.25, 0.25, 0.25, 0.25** might be better.
 
-If you have any question，please feel free to issue.
+If you have any question，please feel free to issue or contact us :<a_chao2001@163.com>.
 
 ## Citation
 
-if you find our repo useful for your research, please cite us:
+If you find our repo useful for your research, please cite us:
 
 ```
 @inproceedings{mu2023little,
